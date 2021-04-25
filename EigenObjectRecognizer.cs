@@ -4,9 +4,7 @@ using Emgu.CV.Structure;
 
 namespace Emgu.CV
 {
-    /// <summary>
-    /// An object recognizer using PCA (Principle Components Analysis)
-    /// </summary>
+   
     [Serializable]
     public class EigenObjectRecognizer
     {
@@ -84,13 +82,8 @@ namespace Emgu.CV
 
             CalcEigenObjects(images, ref termCrit, out _eigenImages, out _avgImage);
 
-            /*
-            _avgImage.SerializationCompressionRatio = 9;
-
-            foreach (Image<Gray, Single> img in _eigenImages)
-                //Set the compression ration to best compression. The serialized object can therefore save spaces
-                img.SerializationCompressionRatio = 9;
-            */
+           
+       
 
             _eigenValues = Array.ConvertAll<Image<Gray, Byte>, Matrix<float>>(images,
                 delegate (Image<Gray, Byte> img)
