@@ -1,1 +1,4 @@
-# Face-regnetion-and-dedction-
+These are the three main codes to build the Face reignition and deduction. However, you need some assisting and setting tolls as well to make it work. For example, you need windows assisting toll to make it work in your windows version. You can find these tools on many different websites. Moreover, you need to have the three main apps (SQL server, Visual Studio, and Notepad++) to make the project work successfully. Furthermore, You have to combine them in one folder in Visual Studio under create project tap. Finally, you need to create two folders as well, one for saving the picture and the other to save the information such as the names; these two folders will be your database. 
+![visst](https://user-images.githubusercontent.com/83149561/116173581-d9144e00-a6da-11eb-8b40-21d6d40797f1.jpeg)
+![npp](https://user-images.githubusercontent.com/83149561/116173598-dfa2c580-a6da-11eb-9d6e-3c77d4c7a349.jpeg)
+![visst](https://user-images.githubusercontent.com/83149561/116173621-e92c2d80-a6da-11eb-94ff-68cbf2441e48.jpeg)
